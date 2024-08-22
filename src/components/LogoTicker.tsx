@@ -37,7 +37,7 @@ export const LogoTicker = () => {
           >
             {images.map(({ src, alt }) => (
               <Image
-                key={src}
+                key={alt}
                 src={src}
                 alt={alt}
                 className="flex-none h-8 w-auto"
@@ -45,7 +45,7 @@ export const LogoTicker = () => {
             ))}
             {images.map(({ src, alt }) => (
               <Image
-                key={src}
+                key={alt}
                 src={src}
                 alt={alt}
                 className="flex-none h-8 w-auto"
